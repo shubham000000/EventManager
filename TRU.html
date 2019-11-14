@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+<title>Today's Events at the TRU Union</title>
+   <style>
+
+      h2{
+         color: red;
+
+        }
+
+    </style>
+</head>
+<body background="Back01.jpg" text="black">
+
+<script type="text/javascript">
+var d = new Date();
+var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+var day = days[d.getDay()];
+
+var monthNames = ["January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+];
+
+var month =  monthNames[d.getMonth()];
+var date1 = d.getDate()
+
+if(day == 'Monday'){
+document.write("<center><img src='Monday.gif'></center>");
+document.write("<br><center>Today is ", day +", ", month + " ",date1 +"</center>");
+document.write("<center><h2>TRU Student Union Daily Schedule</h2></center>");
+document.write("<hr>");
+document.write("<center><img src='Events.gif'></center>");
+}
+
+if(day == 'Tuesday'){
+document.write("<center><img src='Tuesday.gif'></center>");
+document.write("<br><center>Today is ", day +", ", month + " ",date1 +"</center>");
+document.write("<center><h2>TRU Student Union Daily Schedule</h2></center>");
+document.write("<hr>");
+document.write("<center><img src='Events.gif'></center>");
+}
+
+if(day == 'Wednesday'){
+document.write("<center><img src='Wednesday.gif'></center>");
+document.write("<br><center>Today is ", day +", ", month + " ",date1 +"</center>");
+document.write("<center><h2>TRU Student Union Daily Schedule</h2></center>");
+document.write("<hr>");
+document.write("<center><img src='Events.gif'></center>");
+}
+
+if(day == 'Thursday'){
+document.write("<center><img src='Thursday.gif'></center>");
+document.write("<br><center>Today is ", day +", ", month + " ",date1 +"</center>");
+document.write("<center><h2>TRU Student Union Daily Schedule</h2></center>");
+document.write("<hr>");
+document.write("<center><img src='Events.gif'></center>");
+}
+
+if(day == 'Friday'){
+document.write("<center><img src='Friday.gif'></center>");
+document.write("<br><center>Today is ", day +", ", month + " ",date1 +"</center>");
+document.write("<center><h2>TRU Student Union Daily Schedule</h2></center>");
+document.write("<hr>");
+document.write("<center><img src='Events.gif'></center>");
+}
+
+if(day == 'Saturday'){
+document.write("<center><img src='Weekend.gif'></center>");
+document.write("<br><center>Today is ", day +", ", month + " ",date1 +"</center>");
+document.write("<center><h2>TRU Student Union Daily Schedule</h2></center>");
+document.write("<hr>");
+document.write("<center><img src='Events.gif'></center>");
+}
+
+if(day == 'Sunday'){
+document.write("<center><img src='Weekend.gif'></center>");
+document.write("<br><center>Today is ", day +", ", month + " ",date1 +"</center>");
+document.write("<center><h2>TRU Student Union Daily Schedule</h2></center>");
+document.write("<hr>");
+document.write("<center><img src='Events.gif'></center>");
+}
+
+
+</script>
+
+</body>
+</html>
