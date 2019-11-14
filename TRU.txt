@@ -1,9 +1,0 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-
-<html>
-<head>
-<title>Today's Events at the TRU Union</title>
-</head>
-<body background="Back01.jpg" text="black">
-</body>
-</html>
